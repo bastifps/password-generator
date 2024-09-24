@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #1F2937;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+
+}
+
+h1 {
+     color: #4ADF86;
+     font-size: 40px;
+     font-family: "Karla", sans-serif;
+     margin-bottom: 20px;
+}
+
+h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #D5D4D8;
+    margin-bottom: 20px;
+}
+
+#generateText {
+  color: white;
+}
+
+#generateButton {
+    margin-bottom: 20px;
+    background-color: #4ADF86;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#generateButton:hover {
+    background-color: #228f56;
+  }
+
+.passLength {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+.passLength label {
+    font-size: 14px;
+    color: #FFFFFF;
+  }
+  
+  #lengthSelect {
+    background-color: #161B22;
+    border: 1px solid #30363D;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    font-size: 14px;
+  }
+  
+  .textfield {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .textfield input {
+    background-color: #0D1117;
+    border: 1px solid #30363D;
+    border-radius: 5px;
+    padding: 10px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+  
+  .textfield input::placeholder {
+    color: #8B949E;
+  }
+  
+  .textfield input:focus {
+    outline: none;
+    border-color: #00FF7F;
+  }
+
+  .copyButton {
+    padding: 8px 16px;
+    font-size: 14px;
+    margin-top: 5px;
+    display: block;
+    background-color: #4ADF86;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.copyButton:hover {
+    background-color: #228f56;
+}
+
+.textfield {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-container input {
+  background-color: #0D1117;
+  border: 1px solid #30363D;
+  border-radius: 5px;
+  padding: 10px;
+  color: #FFFFFF;
+  text-align: center;
+  width: 200px;
+}
+
+.copyButton {
+  padding: 8px 16px;
+  font-size: 14px;
+  display: block;
+  background-color: #4ADF86;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.copyButton:hover {
+  background-color: #228f56;
+}
